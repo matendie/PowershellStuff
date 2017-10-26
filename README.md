@@ -1,2 +1,0 @@
-# PowershellStuff
-Helpful scripts 
