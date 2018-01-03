@@ -3,3 +3,9 @@
 
 # force delete 
 sc.exe delete <service name>
+
+
+
+
+# shorthand
+(Get-WmiObject Win32_Service | where-object {$_.name -like '*servicename*'}).Delete()
